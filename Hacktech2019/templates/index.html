@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Video Streaming Demonstration</title>
+  </head>
+  <body align="center">
+    <h1>Visual-Audio Demonstration</h1>
+    <form action = "http://localhost:5000/stream_video" method = "post">
+        <table border = "1" bordercolor="blue" align="center">
+             <tr>
+                 <td><img src="static/images/image1.jpg" height="250" width="250"/></td>
+                <td><audio src="static/images/bubble.wav" controls></audio></td>
+             </tr>
+
+             <tr>
+                <td><img src="static/images/image2.jpg" height="250" width="250"/></td>
+                <td><audio src="static/images/curve.wav" controls></audio></td>
+             </tr>
+
+            <tr>
+                <td><img src="static/images/image3.jpg" height="250" width="250"/></td>
+                <td><audio src="static/images/cross.wav" controls></audio></td>
+             </tr>
+
+            <tr>
+                <td><img src="static/images/image4.jpg" height="250" width="250"/></td>
+                <td><audio src="static/images/colors.wav" controls></audio></td>
+             </tr>
+          </table>
+        <br><br>
+    <input type = "submit" name="submit_button "value = "Stream Video" />
+    </form>
+  </body>
+</html>
